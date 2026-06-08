@@ -16,7 +16,7 @@ from aiogram.types import (
 )
 from aiogram.filters import CommandStart
 
-TOKEN = "8671442887:AAHaFImMUVy8DdawAhgDB-Fca-htg6Sacp4"
+TOKEN = "8870600936:AAFm31YV9_aC-jvciKJ-1YgIeVwAf7QZIew"
 
 bot = Bot(
     token=TOKEN,
