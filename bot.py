@@ -303,6 +303,9 @@ async def start(message: Message):
             photo=photo,
             caption=(
                 "<b>Добро пожаловать</b>\n\n"
+                "RatVad HUB — сервис продажи VPN конфигураций VLESS.\n"
+                "Политика конфиденциальности:\nhttps://telegra.ph/Politika-konfidencialnosti-04-01-26\n\n"
+                "Пользовательское соглашение:\nhttps://telegra.ph/Polzovatelskoe-soglashenie-04-01-19\n\n"
                 "Продолжая использование бота, "
                 "вы соглашаетесь с политикой "
                 "конфиденциальности и "
@@ -632,7 +635,7 @@ async def support(callback: CallbackQuery):
     await simple_page(
         callback,
         "💬 Поддержка",
-        "@RatVadSupport"
+        "@ratvad_support"
     )
 
 
@@ -641,7 +644,7 @@ async def profile_support(callback: CallbackQuery):
     await simple_page(
         callback,
         "💬 Поддержка",
-        "@RatVadSupport",
+        "@ratvad_support",
         back_callback="profile"
     )
 
